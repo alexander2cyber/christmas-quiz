@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>🎄 Christmas Quiz 🎄</h1>
+        <p id="welcome"></p>
+    </header>
+
+    <main class="container quiz-card">
+        <p id="progress">Question 1</p>
+
+        <p id="category" class="category"></p>
+
+        <h2 id="question">Loading question...</h2>
+
+        <div id="options"></div>
+
+        <p id="feedback" class="feedback"></p>
+
+        <button id="nextButton" class="button" disabled>
+            Next Question
+        </button>
+
+        <h3 id="score"></h3>
+    </main>
+
+    <!-- Christmas Music -->
+    <audio id="christmasMusic" loop>
+        <source src="christmas-music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Music Toggle Button -->
+    <button id="musicBtn"
+            class="button"
+            onclick="toggleMusic()"
+            style="position:fixed;bottom:20px;right:20px;">
+        🎵 Music ON
+    </button>
+
+</body>
+</html>

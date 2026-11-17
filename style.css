@@ -1,0 +1,125 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #071f19;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 30px 15px;
+    background: linear-gradient(135deg, #a02020, #146b3a);
+}
+
+    header h1 {
+        font-size: 32px;
+        margin: 0 0 10px;
+    }
+
+.container {
+    max-width: 720px;
+    margin: 35px auto;
+    padding: 25px;
+    width: 90%;
+    background: white;
+    color: #222;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px #0005;
+}
+
+.intro {
+    padding: 45px 25px;
+}
+
+.button {
+    display: inline-block;
+    background: #b51f2b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 13px 24px;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+    .button:hover {
+        background: #851721;
+    }
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 13px;
+    margin: 15px 0;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#options {
+    display: grid;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+    #options button {
+        padding: 14px;
+        background: #146b3a;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+        #options button:hover {
+            background: #0c4d29;
+        }
+
+        #options button:disabled {
+            opacity: 0.75;
+            cursor: default;
+        }
+
+.category {
+    color: #a02020;
+    font-weight: bold;
+}
+
+.feedback {
+    font-weight: bold;
+    min-height: 24px;
+}
+
+#progress, #score {
+    font-weight: bold;
+}
+#question {
+    text-align:center;
+    font-weight:bold;
+}
+#options h2{
+    font-size:55px
+    color:#146b3a;
+    text-align:center;
+}
+#options h3,
+#options p{
+    text-align:center;
+}
+#options p {
+    font-size: 18px;
+    margin: 15px
+}
